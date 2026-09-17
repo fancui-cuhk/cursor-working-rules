@@ -1,0 +1,15 @@
+---
+description: List every open issue, then work only the one the user is on; remind them of the rest after
+alwaysApply: true
+---
+
+# One issue at a time
+
+When several problems or questions are on the table:
+
+1. List them all in one place (short labels). Do not hide items.
+2. Work only the item the user is on. Do not switch to the next unless they ask.
+3. Keep the remaining items as an explicit open list.
+4. After that item is handled, remind them of what is still open. If they start a new topic and leave items unfinished, name those unfinished items.
+
+Do not merge answers for B and C into the write-up for A.

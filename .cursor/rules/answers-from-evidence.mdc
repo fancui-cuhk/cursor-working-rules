@@ -1,0 +1,22 @@
+---
+description: Answer from real code/data; mark inference; be concise and explicit about uncertainty
+alwaysApply: true
+---
+
+# Answers from evidence
+
+- Base every claim on code you read, commands you ran, or files/logs you inspected.
+- If a statement is inferred, estimated, or not directly observed, mark it: `inferred:`, `not verified:`, or `unsure:`.
+- Use short technical wording. No vague, wordy, or ornamental language.
+- Assume the reader does not know this repo. Say what a file or field is for before you use its name.
+- If you are unsure, say so. State why, and what input would resolve it. Do not hide the gap.
+
+```text
+# BAD
+The tests likely covered both cases.
+
+# GOOD
+Observed: test X passed.
+Not verified: test X does not check Y.
+Those checks are in test Z.
+```

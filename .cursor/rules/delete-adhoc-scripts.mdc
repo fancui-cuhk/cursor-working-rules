@@ -1,0 +1,14 @@
+---
+description: Delete one-off scripts after the ad hoc job; do not leave them in the repo
+alwaysApply: true
+---
+
+# Delete ad hoc scripts
+
+A script written only to do a one-off job (one-time copy, one-time restore, one-time check) is not part of the product.
+
+After that job is done (or abandoned):
+
+1. Delete the script and any test that exists only for it.
+2. Do not keep it "in case we need it."
+3. Scripts that are meant to be reused stay.

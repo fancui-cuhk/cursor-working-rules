@@ -1,0 +1,27 @@
+---
+description: How to answer — exact question, short high-level, simple English
+alwaysApply: true
+---
+
+# How to answer (high importance)
+
+## 1. Answer the question that was asked
+
+Highest priority. Get the question crystal clear before answering.
+
+- If the question is vague or could mean two things: **ask**. Do not guess the meaning and write a long answer on the wrong subject.
+- Do not change the topic. Do not answer a nearby question instead.
+
+## 2. Think in detail, write a short high-level answer
+
+Do the deep work (code, logs, deduction) yourself. The reply is short.
+
+- Lead with **yes / no / we cannot tell**, then the few insights that matter.
+- The user cares about the research or design question, not low-level names from the implementation.
+- Do not fill the reply with syscall names, log field names, or similar unless the user asked for that layer.
+
+## 3. Simple English only
+
+The user is not a native English speaker. Use short, common technical words. No slang, no metaphor, no made-up labels.
+
+If a word is uncommon, use the plain meaning instead.

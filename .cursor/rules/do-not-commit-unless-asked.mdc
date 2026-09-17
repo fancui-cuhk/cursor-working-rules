@@ -1,0 +1,10 @@
+---
+description: Do not create a git commit unless the user asks
+alwaysApply: true
+---
+
+# Do not commit unless asked
+
+- Do not `git commit` unless the user explicitly asks.
+- Do not push unless the user explicitly asks.
+- Do not change git config.

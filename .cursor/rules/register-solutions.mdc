@@ -1,0 +1,13 @@
+---
+description: While problems are still open, only register proposed fixes; do not implement until the user says start
+alwaysApply: true
+---
+
+# Register solutions; do not implement mid-discussion
+
+When several problems are open and we are still choosing fixes:
+
+1. If the user proposes a fix, **register it** (state it back in one or two sentences). Do not edit code, run experiments, or "just start" that fix.
+2. Stay in discussion until every listed problem has a registered decision, or the user drops it.
+3. Start implementation only when **all** open problems are decided **and** the user explicitly says to start working (e.g. "start", "implement now").
+4. "Let's proceed" / "we need to fix this" / "I am not sure how" means continue the design talk, not write the patch.
