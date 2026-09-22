@@ -1,0 +1,17 @@
+---
+description: Do not stop at an untested assumption; loop until evidence supports the answer, then propose fixes
+alwaysApply: true
+---
+
+# Assumption loop
+
+Stating an assumption is not the end of the job.
+
+1. Gather evidence **for and against** it. Use existing logs and code first.
+2. Enough support → treat it as the answer and report it.
+3. Not enough → keep going: more analysis, tweak the assumption, or propose a new one.
+4. New experiments only when existing data cannot decide. Say so before running a grid.
+5. The user-facing write-up must show the chain: `assumption → evidence → keep / drop / tweak → …` so the steps can be checked.
+6. Do not wait for the user to correct each step. Loop until the evidence is enough, or until 2–3 remaining assumptions need a choice (then discuss).
+7. Use plan mode and parallel subagents when the loop splits.
+8. **When you think you have the true answer: propose fixes for the culprit. Do not implement unless the user asks.**

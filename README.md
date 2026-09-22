@@ -14,6 +14,7 @@ These rules are not tied to one repo or one codebase. Copy them into another pro
 | `register-solutions.mdc` | Write down a proposed fix. Do not implement until the user says start. |
 | `delete-adhoc-scripts.mdc` | Delete one-off scripts after the job. |
 | `do-not-commit-unless-asked.mdc` | Do not commit or push unless the user asks. |
+| `assumption-loop.mdc` | Do not stop at an untested assumption. Gather evidence for and against it. Loop until the evidence supports the answer. Then propose fixes; do not implement unless asked. |
 
 ## What is not in here
 
